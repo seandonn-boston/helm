@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-08-07T08:12:03Z",
+  "last_updated": "2026-08-08T07:48:02Z",
   "sources": {
     "anthropic": {
       "type": "model_provider",
@@ -10,7 +10,7 @@
     },
     "openai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-07T08:12:03Z",
+      "last_scanned": "2026-08-08T07:48:02Z",
       "known_version": "v0.19.4",
       "enabled": true
     },
@@ -22,19 +22,19 @@
     },
     "meta-llama": {
       "type": "model_provider",
-      "last_scanned": "2026-08-07T08:12:03Z",
+      "last_scanned": "2026-08-08T07:48:02Z",
       "known_version": "v0.2.0",
       "enabled": true
     },
     "mistralai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-07T08:12:03Z",
+      "last_scanned": "2026-08-08T07:48:02Z",
       "known_version": "v1.11.7",
       "enabled": true
     },
     "deepseek-ai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-07T08:12:03Z",
+      "last_scanned": "2026-08-08T07:48:02Z",
       "known_version": "v1.0.0",
       "enabled": true
     },
@@ -52,7 +52,7 @@
     },
     "cline": {
       "type": "framework",
-      "last_scanned": "2026-08-07T08:12:03Z",
+      "last_scanned": "2026-08-08T07:48:02Z",
       "known_version": "desktop-v0.0.10",
       "enabled": true
     },
@@ -82,6 +82,14 @@
     }
   },
   "scan_history": [
+    {
+      "timestamp": "2026-08-08T07:48:02Z",
+      "scan_type": "full",
+      "status": "success",
+      "findings_count": 18,
+      "high_priority_count": 3,
+      "digest_file": "monitor/digests/2026-08-08.md"
+    },
     {
       "timestamp": "2026-08-07T08:12:03Z",
       "scan_type": "full",
@@ -873,14 +881,6 @@
       "findings_count": 18,
       "high_priority_count": 3,
       "digest_file": "monitor/digests/2026-05-13.md"
-    },
-    {
-      "timestamp": "2026-05-12T07:58:46Z",
-      "scan_type": "full",
-      "status": "success",
-      "findings_count": 18,
-      "high_priority_count": 3,
-      "digest_file": "monitor/digests/2026-05-12.md"
     }
   ],
   "watchlist": {
