@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-08-14T07:32:14Z",
+  "last_updated": "2026-08-15T07:12:08Z",
   "sources": {
     "anthropic": {
       "type": "model_provider",
@@ -10,8 +10,8 @@
     },
     "openai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-14T07:32:14Z",
-      "known_version": "v0.20.0",
+      "last_scanned": "2026-08-15T07:12:08Z",
+      "known_version": "v0.21.0",
       "enabled": true
     },
     "google-deepmind": {
@@ -22,19 +22,19 @@
     },
     "meta-llama": {
       "type": "model_provider",
-      "last_scanned": "2026-08-14T07:32:14Z",
+      "last_scanned": "2026-08-15T07:12:08Z",
       "known_version": "v0.2.0",
       "enabled": true
     },
     "mistralai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-14T07:32:14Z",
+      "last_scanned": "2026-08-15T07:12:08Z",
       "known_version": "v1.11.7",
       "enabled": true
     },
     "deepseek-ai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-14T07:32:14Z",
+      "last_scanned": "2026-08-15T07:12:08Z",
       "known_version": "v1.0.0",
       "enabled": true
     },
@@ -52,8 +52,8 @@
     },
     "cline": {
       "type": "framework",
-      "last_scanned": "2026-08-14T07:32:14Z",
-      "known_version": "v4.1.9",
+      "last_scanned": "2026-08-15T07:12:08Z",
+      "known_version": "desktop-v0.0.13",
       "enabled": true
     },
     "cursor": {
@@ -82,6 +82,14 @@
     }
   },
   "scan_history": [
+    {
+      "timestamp": "2026-08-15T07:12:08Z",
+      "scan_type": "full",
+      "status": "success",
+      "findings_count": 21,
+      "high_priority_count": 3,
+      "digest_file": "monitor/digests/2026-08-15.md"
+    },
     {
       "timestamp": "2026-08-14T07:32:14Z",
       "scan_type": "full",
@@ -873,14 +881,6 @@
       "findings_count": 17,
       "high_priority_count": 3,
       "digest_file": "monitor/digests/2026-05-20.md"
-    },
-    {
-      "timestamp": "2026-05-19T08:12:21Z",
-      "scan_type": "full",
-      "status": "success",
-      "findings_count": 17,
-      "high_priority_count": 3,
-      "digest_file": "monitor/digests/2026-05-19.md"
     }
   ],
   "watchlist": {
