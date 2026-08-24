@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-08-24T06:15:58Z",
+  "last_updated": "2026-08-24T07:25:11Z",
   "sources": {
     "anthropic": {
       "type": "model_provider",
@@ -10,7 +10,7 @@
     },
     "openai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-24T06:15:58Z",
+      "last_scanned": "2026-08-24T07:25:11Z",
       "known_version": "v0.22.0",
       "enabled": true
     },
@@ -22,19 +22,19 @@
     },
     "meta-llama": {
       "type": "model_provider",
-      "last_scanned": "2026-08-24T06:15:58Z",
+      "last_scanned": "2026-08-24T07:25:11Z",
       "known_version": "v0.2.0",
       "enabled": true
     },
     "mistralai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-24T06:15:58Z",
+      "last_scanned": "2026-08-24T07:25:11Z",
       "known_version": "v1.11.7",
       "enabled": true
     },
     "deepseek-ai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-24T06:15:58Z",
+      "last_scanned": "2026-08-24T07:25:11Z",
       "known_version": "v1.0.0",
       "enabled": true
     },
@@ -52,7 +52,7 @@
     },
     "cline": {
       "type": "framework",
-      "last_scanned": "2026-08-24T06:15:58Z",
+      "last_scanned": "2026-08-24T07:25:11Z",
       "known_version": "v4.1.15",
       "enabled": true
     },
@@ -82,6 +82,14 @@
     }
   },
   "scan_history": [
+    {
+      "timestamp": "2026-08-24T07:25:11Z",
+      "scan_type": "full",
+      "status": "success",
+      "findings_count": 22,
+      "high_priority_count": 3,
+      "digest_file": "monitor/digests/2026-08-24.md"
+    },
     {
       "timestamp": "2026-08-24T06:15:58Z",
       "scan_type": "discover",
@@ -873,14 +881,6 @@
       "findings_count": 19,
       "high_priority_count": 3,
       "digest_file": "monitor/digests/2026-05-30.md"
-    },
-    {
-      "timestamp": "2026-05-29T08:19:34Z",
-      "scan_type": "full",
-      "status": "success",
-      "findings_count": 18,
-      "high_priority_count": 3,
-      "digest_file": "monitor/digests/2026-05-29.md"
     }
   ],
   "watchlist": {
