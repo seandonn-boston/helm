@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2026-08-27T10:19:49Z",
+  "last_updated": "2026-08-28T10:32:49Z",
   "sources": {
     "anthropic": {
       "type": "model_provider",
@@ -10,7 +10,7 @@
     },
     "openai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-27T10:19:49Z",
+      "last_scanned": "2026-08-28T10:32:49Z",
       "known_version": "v0.22.0",
       "enabled": true
     },
@@ -22,19 +22,19 @@
     },
     "meta-llama": {
       "type": "model_provider",
-      "last_scanned": "2026-08-27T10:19:49Z",
+      "last_scanned": "2026-08-28T10:32:49Z",
       "known_version": "v0.2.0",
       "enabled": true
     },
     "mistralai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-27T10:19:49Z",
+      "last_scanned": "2026-08-28T10:32:49Z",
       "known_version": "v1.11.7",
       "enabled": true
     },
     "deepseek-ai": {
       "type": "model_provider",
-      "last_scanned": "2026-08-27T10:19:49Z",
+      "last_scanned": "2026-08-28T10:32:49Z",
       "known_version": "v1.0.0",
       "enabled": true
     },
@@ -52,8 +52,8 @@
     },
     "cline": {
       "type": "framework",
-      "last_scanned": "2026-08-27T10:19:49Z",
-      "known_version": "cli-v3.0.60",
+      "last_scanned": "2026-08-28T10:32:49Z",
+      "known_version": "desktop-v0.0.20",
       "enabled": true
     },
     "cursor": {
@@ -82,6 +82,14 @@
     }
   },
   "scan_history": [
+    {
+      "timestamp": "2026-08-28T10:32:49Z",
+      "scan_type": "full",
+      "status": "success",
+      "findings_count": 17,
+      "high_priority_count": 3,
+      "digest_file": "monitor/digests/2026-08-28.md"
+    },
     {
       "timestamp": "2026-08-27T10:19:49Z",
       "scan_type": "full",
@@ -873,14 +881,6 @@
       "findings_count": 18,
       "high_priority_count": 3,
       "digest_file": "monitor/digests/2026-06-02.md"
-    },
-    {
-      "timestamp": "2026-06-01T08:52:59Z",
-      "scan_type": "full",
-      "status": "success",
-      "findings_count": 20,
-      "high_priority_count": 3,
-      "digest_file": "monitor/digests/2026-06-01.md"
     }
   ],
   "watchlist": {
